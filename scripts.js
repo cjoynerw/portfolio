@@ -2,13 +2,13 @@ function smoothScroll(target, duration) {
     var target = document.querySelector(target);
     var targetPosition = target.getBoundingClientRect().top;
     var startPosition = window.pageYOffset;
-    var distance = targetPosition - startPosition;
+    // var distance = targetPosition - startPosition;
     var startTime = null;
 
     function animation(currentTime){
         if(startTime === null) startTime = currentTime;
         var timeElapsed = currentTime - startTime;
-        var run = ease(timeElapsed, startPosition, distance, duration);
+        var run = ease(timeElapsed, startPosition, targetPosition, duration);
         window.scrollTo(0, run);
         if (timeElapsed < duration) requestAnimationFrame(animation)
     }
@@ -23,14 +23,23 @@ function smoothScroll(target, duration) {
     requestAnimationFrame(animation);
 }
     
-var section1 = document.querySelector('.section1');
-var section2 = document.querySelector('.section2');
-
+var section1 = document.querySelector('.home');
+var section2 = document.querySelector('.projects');
+var section3 = document.querySelector('.about');
+var section4 = document.querySelector('.contact');
 
 section1.addEventListener('click', function(){
-    smoothScroll('.section2', 1000)
+    smoothScroll('.box1', 1000)
 })
 
 section2.addEventListener('click', function(){
-    smoothScroll('.section1', 1000)
+    smoothScroll('.box2', 1000)
+})
+
+section3.addEventListener('click', function(){
+    smoothScroll('.box3', 1000)
+})
+
+section4.addEventListener('click', function(){
+    smoothScroll('.box4', 1000)
 })
