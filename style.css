@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divider {
+    height: 0.2vh;
+    width: 80vw;
+    background-color: rgb(228, 228, 228);
+    margin: 0 10% 0 10%;
 }
 
 /* Navbar */
@@ -120,12 +128,16 @@ a.home {
     flex-direction: row;
     justify-content: space-around;
 }
+.projects-page img {
+    max-height: 100%;
+    max-width: 100%;
+}
 
 /* Box 3 */
 .box3 {
     height: 100vh;
     width: 100%;
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
     padding: 20vh 0 20vh 0;
 }
 
