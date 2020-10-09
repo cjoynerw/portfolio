@@ -17,38 +17,40 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
+    background-color: black;
 }
-nav ul li {
-    align-items: center;
-    justify-content: center;
-}
+
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2vh;
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
+}
+a.home {
+    width: 100px;
+    background-color: black;
 }
 .home {
-    background-color: purple;
+
 }
 .projects {
-    background-color: orange;
+    background-color: black;
 }
 .about {
-    background-color: green;
+    background-color: black;
 }
 .contact {
-    background-color: pink;
+    background-color: black;
 }
 .github {
-    background-color: blue;
+    background-color: black;
 }
 .linkedin {
-    background-color: peru;
+    background-color: black;
 }
 .resume {
-    background-color: red;
+    background-color: black;
 }
 
 /* Content */
@@ -81,7 +83,7 @@ nav ul li a {
     border-radius: 50%;
     border: 2px solid black;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	/* transform: translatey(0px); */
+	transform: translate(0px);
     animation: float 6s ease-in-out infinite;
     padding: 8px;
     background-color: white;
@@ -89,15 +91,15 @@ nav ul li a {
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
+		transform: translate(0px);
 	}
 	50% {
 		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
+		transform: translate(0px, -20px);
 	}
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
+		transform: translate(0px);
 	}
 }
 .box1 h1 {
@@ -109,21 +111,27 @@ nav ul li a {
 
 /* Box 2 */
 .box2 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: rgb(240, 240, 240);
+    padding: 20vh 0 20vh 0;
+}
+.projects-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* Box 3 */
 .box3 {
     height: 100vh;
     width: 100%;
-    /* background-color: rgb(235, 235, 235); */
+    background-color: rgb(240, 240, 240);
+    padding: 20vh 0 20vh 0;
 }
 
 /* Box 4 */
 .box4 {
     height: 100vh;
     width: 100%;
-    background-color: rgb(235, 235, 235);
+    padding: 20vh 0 20vh 0;
 }
