@@ -127,15 +127,17 @@ a.home {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin: 0 10vw 0 10vw;
 }
 .projects-page img {
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 70vh;
+    max-width: 70%;
 }
 
 /* Box 3 */
 .box3 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding: 20vh 0 20vh 0;
 }
@@ -143,11 +145,29 @@ a.home {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin: 0 10vw 0 10vw;
+}
+.about-page img {
+    max-height: 70vh;
+    max-width: 70%;
+}
+.about-content {
+    /* margin: 0 10vw 0 10vw; */
+}
+.tech {
+    padding: 5vh 0 0 0;
+}
+.techs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /* Box 4 */
 .box4 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding: 20vh 0 20vh 0;
 }
