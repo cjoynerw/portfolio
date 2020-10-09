@@ -27,6 +27,7 @@ var section1 = document.querySelector('.home');
 var section2 = document.querySelector('.projects');
 var section3 = document.querySelector('.about');
 var section4 = document.querySelector('.contact');
+var section5 = document.querySelector('.a');
 
 section1.addEventListener('click', function(){
     smoothScroll('.box1', 1000)
@@ -42,4 +43,8 @@ section3.addEventListener('click', function(){
 
 section4.addEventListener('click', function(){
     smoothScroll('.box4', 1000)
+})
+
+section5.addEventListener('click', function(){
+    smoothScroll('.box1', 1000)
 })
