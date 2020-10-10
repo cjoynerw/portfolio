@@ -45,12 +45,7 @@ nav img {
     height: 3vh;
     width: 3vh;
 }
-a.home {
-    /* height: ; */
-}
-/* .home {
 
-} */
 .projects {
     background-color: black;
 }
@@ -161,9 +156,6 @@ a.home {
     max-height: 70vh;
     max-width: 70%;
 }
-/* .about-content { */
-    /* margin: 0 10vw 0 10vw; */
-/* } */
 .tech {
     padding: 5vh 0 0 0;
 }
@@ -209,18 +201,16 @@ a.home {
         width: 100vw;
         top: 0%;
         z-index: 2;
-        /* display: none; */
     }
     nav ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    nav ul li {
-    }
     nav ul li a {
         border-right: none;
         border-bottom: 2px solid black;
+        padding: 2vh 1vh 2vh 1vh;
     }
     nav ul li a:hover {
         border-right: none;
