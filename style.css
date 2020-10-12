@@ -65,6 +65,13 @@ nav img {
     background-color: black;
 }
 
+.mobile1 {
+    display: none;
+}
+.mobile2 {
+    display: none;
+}
+
 /* Content */
 /* Box 1 */
 .box1 {
@@ -244,5 +251,16 @@ nav img {
     }
     .tech ul {
         list-style: none;
+    }
+    .mobile1 {
+        display: block;
+        color: rgb(255, 0, 140);
+        text-decoration: underline;
+    }
+    .mobile2 {
+        display: block;
+        padding-bottom: 2vh;
+        color: rgb(0, 247, 255);
+        text-decoration: underline;
     }
 }
