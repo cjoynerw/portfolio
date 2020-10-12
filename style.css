@@ -91,7 +91,7 @@ nav img {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 4vh;
+    width: 35px;
     border-radius: 50%;
     border: 2px solid black;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -137,6 +137,14 @@ nav img {
 .projects-page img {
     max-height: 70vh;
     max-width: 70%;
+    margin-right: 5vw;
+}
+.pros img {
+    height: 2em;
+    width: 2em;
+}
+.pros h2 {
+    padding-top: 2vh;
 }
 
 /* Box 3 */
@@ -155,6 +163,7 @@ nav img {
 .about-page img {
     max-height: 70vh;
     max-width: 70%;
+    margin-left: 5vw;
 }
 .tech {
     padding: 5vh 0 0 0;
@@ -162,8 +171,11 @@ nav img {
 .techs {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+.techs h3 {
+    padding-right: 15px;
 }
 
 /* Box 4 */
@@ -177,6 +189,9 @@ nav img {
     color: blue;
     text-align: center;
     margin: 5vh 0 0 0;
+}
+.box4 a:hover {
+    text-decoration: underline;
 }
 .contact-page {
     display: flex;
