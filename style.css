@@ -181,9 +181,13 @@ nav img {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.techs h3 {
-    padding-right: 15px;
+.techs ul {
+    list-style: none;
 }
+/* .tech1 {
+    margin-right: 10px;
+} */
+
 
 /* Box 4 */
 .box4 {
