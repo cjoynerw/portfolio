@@ -28,6 +28,7 @@ var section2 = document.querySelector('.projects');
 var section3 = document.querySelector('.about');
 var section4 = document.querySelector('.contact');
 var section5 = document.querySelector('.a');
+var section6 = document.querySelector('.arrowdown')
 
 section1.addEventListener('click', function(){
     smoothScroll('.box1', 1000)
@@ -47,4 +48,7 @@ section4.addEventListener('click', function(){
 
 section5.addEventListener('click', function(){
     smoothScroll('.box1', 1000)
+})
+section6.addEventListener('click', function(){
+    smoothScroll('.box2', 1000)
 })

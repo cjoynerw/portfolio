@@ -80,7 +80,6 @@ nav img {
     background-color: white;
 	border-radius: 50%;
 	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
     position: absolute;
@@ -90,15 +89,12 @@ nav img {
 }
 @keyframes float {
 	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
 	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
 		transform: translatey(-20px);
 	}
 	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
 }
@@ -188,9 +184,11 @@ nav img {
     justify-content: center;
     align-items: center;
 }
-.contact-img {
-    height: 20vh;
-    width: 30vw;
+.contact-content {
+    text-align: center;
+}
+.contactme {
+    color: rgb(255, 0, 140);
 }
 .link {
     border: 1px solid black;
