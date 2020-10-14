@@ -45,26 +45,6 @@ nav img {
     height: 3vh;
     width: 3vh;
 }
-
-.projects {
-    background-color: black;
-}
-.about {
-    background-color: black;
-}
-.contact {
-    background-color: black;
-}
-.github {
-    background-color: black;
-}
-.linkedin {
-    background-color: black;
-}
-.resume {
-    background-color: black;
-}
-
 .mobile1 {
     display: none;
 }
@@ -185,9 +165,6 @@ nav img {
 .techs ul {
     list-style: none;
 }
-/* .tech1 {
-    margin-right: 10px;
-} */
 
 
 /* Box 4 */
@@ -247,6 +224,10 @@ nav img {
         justify-content: center;
         width: 100vw;
         margin: 0;
+    }
+    nav img {
+        height: 1.5em;
+        width: 1.5em;
     }
     nav ul li a {
         border-right: none;
