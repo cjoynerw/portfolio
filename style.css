@@ -14,12 +14,12 @@
 }
 .dark-mode {
     background-color: black;
-    color: white;
+    color: lightgray;
 }
 .navdark-mode {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(66, 66, 66);
 }
-button {
+#dark-button {
     position: fixed;
     top: 5%;
     right: 5%;
@@ -137,9 +137,7 @@ nav img {
     margin: 0 10vw 0 10vw;
 }
 .projects-page img {
-    max-height: 70vh;
-    max-width: 70%;
-    margin-right: 5vw;
+    margin: 1vw 1vw 0 0;
 }
 .pros img {
     height: 2em;
@@ -148,9 +146,30 @@ nav img {
 .pros h2 {
     padding-top: 2vh;
 }
-.pros a:hover {
-    background-color: red;
+.pros a {
+    text-decoration: none;
+    color: white;
+    padding: 0.2em;
+    background-color: rgb(66, 66, 66);
+    transition: .5s ease;
 }
+.pros a:hover {
+    background-color: rgb(233, 0, 128);
+}
+.pros img {
+    height: auto;
+    width: 20em;
+    border: 2px solid rgb(233, 0, 128);
+}
+.pro2 {
+    display: flex;
+}
+.pro-content p {
+    margin-bottom: 1vh;
+}
+
+
+
 /* Box 3 */
 .box3 {
     min-height: 100vh;
@@ -229,6 +248,10 @@ nav img {
     .big {
         display: none;
     }
+    #dark-button {
+        top: 10%;
+        /* bottom: 3%; */
+    }
     nav {
         position: fixed;
         height: 1vh;
@@ -258,6 +281,14 @@ nav img {
     }
     * {
         text-align: center;
+    }
+    .pro1 {
+        margin-bottom: 1vh;
+    }
+    .pro2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .techs {
         display: flex;
