@@ -25,7 +25,13 @@ function smoothScroll(target, duration) {
 
 function darkMode() {
     const element = document.getElementById('dark')
+    const darkbtn = document.getElementById('dark-button')
     element.classList.toggle("dark-mode")
+    if (darkbtn.innerHTML === "Dark Mode") {
+        darkbtn.innerHTML = 'Light Mode';
+    } else {
+        darkbtn.innerHTML = 'Dark Mode'
+    }
 }
     
 var section1 = document.querySelector('.home');

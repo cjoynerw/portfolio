@@ -16,6 +16,17 @@
     background-color: black;
     color: white;
 }
+button {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    padding: 0.5%;
+    cursor: pointer;
+    background-color: rgb(233, 0, 128);
+}
 
 /* Navbar */
 nav {
