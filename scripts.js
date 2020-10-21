@@ -22,6 +22,11 @@ function smoothScroll(target, duration) {
 
     requestAnimationFrame(animation);
 }
+
+function darkMode() {
+    const element = document.getElementById('dark')
+    element.classList.toggle("dark-mode")
+}
     
 var section1 = document.querySelector('.home');
 var section2 = document.querySelector('.projects');

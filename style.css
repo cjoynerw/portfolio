@@ -12,6 +12,10 @@
     background-color: rgb(228, 228, 228);
     margin: 0 10% 0 10%;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 /* Navbar */
 nav {
@@ -130,7 +134,9 @@ nav img {
 .pros h2 {
     padding-top: 2vh;
 }
-
+.pros a:hover {
+    background-color: red;
+}
 /* Box 3 */
 .box3 {
     min-height: 100vh;
