@@ -13,12 +13,12 @@
     margin: 0 10% 0 10%;
 }
 .dark-mode {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: lightgray;
 }
-.navdark-mode {
+/* .navdark-mode {
     background-color: rgb(66, 66, 66);
-}
+} */
 #dark-button {
     position: fixed;
     top: 5%;
@@ -53,7 +53,7 @@ nav ul li a {
     justify-content: center;
     padding: 2vh;
     opacity: 0.5;
-    border-right: 2px solid black;
+    border-right: 2px solid rgba(0, 0, 0, 0);
 }
 nav ul li a:hover {
     opacity: 1;
@@ -250,7 +250,7 @@ nav img {
     }
     #dark-button {
         top: 10%;
-        /* bottom: 3%; */
+        padding: 0.5em;
     }
     nav {
         position: fixed;
@@ -272,7 +272,7 @@ nav img {
     }
     nav ul li a {
         border-right: none;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid rgba(0, 0, 0, 0);
         padding: 2vh 1vh 2vh 1vh;
     }
     nav ul li a:hover {
