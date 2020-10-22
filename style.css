@@ -13,7 +13,7 @@
     margin: 0 10% 0 10%;
 }
 .dark-mode {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(34, 34, 34);
     color: lightgray;
 }
 /* .navdark-mode {
@@ -230,12 +230,8 @@ nav img {
     color: rgb(255, 0, 140);
 }
 .link {
-    border: 1px solid black;
     padding: 1vh;
     border-radius: 8px;
-    color: black;
-}
-.link p {
     color: black;
 }
 .link p:hover {
